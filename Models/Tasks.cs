@@ -15,5 +15,10 @@ namespace aWebASPapp.Models
         public String status { get; set; }
         public bool Finished { get; set; }
 
+        public Tasks()
+        {
+
+        }
+
     }
 }
