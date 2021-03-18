@@ -5,10 +5,15 @@ using System.Threading.Tasks;
 
 namespace aWebASPapp.Models
 {
-    public class Pirates
+    public class Tasks
     {
         public int Id { get; set; }
         public String Person { get; set; }
         public String Issue { get; set; }
+        public String Priority { get; set; }
+        public String Time { get; set; }
+        public String status { get; set; }
+        public bool Finished { get; set; }
+
     }
 }
